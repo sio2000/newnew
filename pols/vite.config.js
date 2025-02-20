@@ -8,7 +8,11 @@ export default defineConfig({
   base: '/',
   build: {
     outDir: 'dist',
-    emptyOutDir: true
+    emptyOutDir: true,
+    rollupOptions: {
+      input: 'index.html',
+    },
+    copyPublicDir: true
   },
   resolve: {
     alias: {

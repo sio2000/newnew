@@ -1,0 +1,14 @@
+{
+  "imports": {
+    "stripe": "https://esm.sh/stripe@12.18.0?deno-std=0.168.0",
+    "@supabase/supabase-js": "https://esm.sh/@supabase/supabase-js@2.20.0?deno-std=0.168.0"
+  },
+  "tasks": {
+    "deploy": "supabase functions deploy"
+  },
+  "compilerOptions": {
+    "allowJs": true,
+    "lib": ["deno.window"],
+    "strict": true
+  }
+} 

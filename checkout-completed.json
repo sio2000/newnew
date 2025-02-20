@@ -1,0 +1,9 @@
+{
+  "type": "checkout.session.completed",
+  "data": {
+    "object": {
+      "client_reference_id": "test-user-123",
+      "customer_email": "test@example.com"
+    }
+  }
+} 
